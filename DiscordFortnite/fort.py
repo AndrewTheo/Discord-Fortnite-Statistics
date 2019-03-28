@@ -9,7 +9,7 @@ from PIL import ImageFont
 from PIL import ImageDraw 
 
 
-TOKEN = 'NDg2ODMxNTY2Mjg3NTM2MTI4.DnE04w.GgylHoJWR2Tg71LmLJ-2kef4Hpk'
+TOKEN = 'INSERT DISCORD API TOKEN HERE'
 
 client = discord.Client()
 
