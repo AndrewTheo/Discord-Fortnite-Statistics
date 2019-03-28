@@ -55,7 +55,7 @@ async def on_message(message):
             api_url = url + name
             print(api_url)
 
-            header = {"TRN-Api-Key": '02900164-e2e6-4216-80e2-1fedc9c5276d'}
+            header = {"TRN-Api-Key": 'FORTNITE TRACKER API KEY HERE'}
 
             r = requests.get(api_url, headers=header)
             data = json.loads(r.text)
